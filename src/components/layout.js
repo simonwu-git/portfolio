@@ -2,7 +2,6 @@ import React from 'react'
 import '../assets/scss/main.scss'
 
 import Footer from './Footer'
-import topology from 'vanta/dist/vanta.topology.min'
 
 class Template extends React.Component {
   constructor(props) {
@@ -10,7 +9,6 @@ class Template extends React.Component {
     this.state = {
       loading: 'is-loading'
     }
-    this.vantaRef = React.createRef();
   }
 
   componentDidMount () {
@@ -18,16 +16,6 @@ class Template extends React.Component {
         this.setState({loading: ''});
     }, 100);
 
-    this.vantaEffect = topology({
-      el: this.vantaRef.current,
-      mouseControls: true,
-      touchControls: true,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      color: 0xa6b37a
-    })
   }
 
   componentWillUnmount () {
@@ -42,7 +30,7 @@ class Template extends React.Component {
     const { children } = this.props
 
     return (
-      <div ref={this.vantaRef} className={`body ${this.state.loading}`}>
+      <div className={`body ${this.state.loading}`}>
         <div id="wrapper">
 
           {children}
