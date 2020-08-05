@@ -29,7 +29,7 @@ const Header = (props) => (
                 <li>
                     <a
                         href="mailto:simon.wu052@gmail.com"
-                        className="icon fa-at alt"
+                        className="icon fa-envelope-o alt"
                     >
                         <span className="label">Email</span>
                     </a>
