@@ -41,13 +41,16 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Welcome!</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                  Thank you for visiting! I put this page together to share more about myself, my experiences, and interests. 
+                  One of the things I care deeply about is developing products that contribute to a better tomorrow. <br/><br/>
+
+                  There is something electrifying about bringing abstract ideas into reality to tackle real world problems. 
+                  There are technical elements that require precise thinking but also a creative side where the boundaries of imagination are the only real limitation. 
+                  I find myself intrigued with every step along this process and I aspire to deliver value to missions that matter.
+
                 </p>
                 <ul className="actions">
                   <li>

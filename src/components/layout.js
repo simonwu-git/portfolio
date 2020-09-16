@@ -22,8 +22,6 @@ class Template extends React.Component {
     if (this.timeoutId) {
         clearTimeout(this.timeoutId);
     }
-
-    if (this.vantaEffect) this.vantaEffect.destroy();
   }
 
   render() {
